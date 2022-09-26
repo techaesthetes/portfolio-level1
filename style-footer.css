@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/*  #f4d19b */
+#footer {
+}
+
+
+.social-icons-wrapper {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.social-icons {
+    height: 24px;
+} 

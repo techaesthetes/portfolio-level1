@@ -10,31 +10,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="./style-footer.css">
 </head>
 <body>
     
     <div class="container" id="footer">
 
-        <!-- fontawesome icons link https://fontawesome.com/v5/icons/linkedin-in?s=&f=brands  -->
+        <!-- fontawesome icons link https://fontawesome.com/v5/icons/linkedin-in?s=&f=brands REMOVE LATER  -->
         <!-- social icons -->
-        <div>
-            <div> <img src="./assets/icons/github.svg" alt="Github"> </div>
-            <div> <img src="./assets/icons/linkedin-in.svg" alt="linkedin"> </div>
-            <div> <img src="./assets/icons/twitter.svg" alt="Twitter"> </div>
+        <div class="d-flex justify-content-center align-self-center"> <!-- give flex learing links REMOVE LATER -->
+            <div class="social-icons-wrapper"> <img class="social-icons" src="./assets/icons/github.svg" alt="Github"> </div>
+            <div class="social-icons-wrapper"> <img class="social-icons" src="./assets/icons/linkedin-in.svg" alt="linkedin"> </div>
+            <div class="social-icons-wrapper"> <img class="social-icons" src="./assets/icons/twitter.svg" alt="Twitter"> </div>
         </div>
         <!-- contact -->
-        <div>
-            <h3>techaesthetes-support@gamil.com</h3>
+        <div class="text-center">
+            <h3>techaesthetes-support@gmail.com</h3>
             <h3>Chennai, IN</h3>
         </div>
         <!-- copy right -->
-        <div>
-            <div>Tech Aesthetes &copy 2022</div>
-            <div>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
+        <div class="d-flex align-items-center">
+            <div class="px-2">Tech Aesthetes &copy 2022</div>
+            <div class="flex-grow-1">
+                <ul class="d-flex justify-content-end m-0">
+                    <li class="mx-3 list-style-none">Home</li>
+                    <li class="mx-3 list-style-none">About</li>
+                    <li class="mx-3 list-style-none">Skills</li>
                 </ul>
             </div>
         </div>
