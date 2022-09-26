@@ -5,16 +5,50 @@
     box-sizing: border-box;
 }
 
-/*  #f4d19b */
+/*  
+    THEME COLOR CODES
+    #F4D19B 
+    #94C8D2
+    #F3F9DF
+*/
+
 #footer {
+    padding: 2rem 0 0;
+    background-color: #F4D19B;  
 }
 
-
 .social-icons-wrapper {
+    height: 40px;
+    width: 40px;
     margin: 0.5rem;
     padding: 0.5rem;
+    background-color: #94C8D2;
+    border-radius: 50%;
+}
+
+.social-icons-wrapper:hover {
+    transform: translateY(-1px);
 }
 
 .social-icons {
     height: 24px;
+    width: 24px;
 } 
+
+.list-style-none {
+    list-style: none;
+}
+
+.bg-lighttheme {
+    background-color: #F3F9DF;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-links:hover {
+    color: inherit;
+    opacity: 0.7;
+}
